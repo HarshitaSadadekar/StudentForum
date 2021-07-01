@@ -1,24 +1,26 @@
 body{
-     /* background-color: aliceblue;  */
+     background-image: url("chat.png");
+     background-size: cover;
 }
 section{
     margin-top:20px;
-    font-family: 'Open Sans', sans-serif;
+    font-family:'Skranji', cursive;
   
-    color:darkslategray;
+    color:#4F3B1C;
 }
 a{
     text-decoration: none;
-    color:darkslategray;
-    font-family: 'Open Sans', sans-serif;
+    color:#4F3B1C;
+    font-family:'Skranji', cursive;
 }
 h1{
     margin:0px 50px 50px;
     margin-top:0px;
     text-align: center;
-    font-size:50px;
+    font-size:60px;
     letter-spacing: 10px;
     font-weight: bolder;
+    text-shadow: 2px 2px 2px #FFCD57, 4px 4px 2px #7DC4B2;
 }
 span{
     letter-spacing: 3px;
@@ -31,8 +33,8 @@ span{
     margin:0 auto;
     max-width: 1000px;
     display: grid;
-    font-family: 'Open Sans', sans-serif;
-    color:darkslategray;
+    font-family: 'Skranji', cursive;
+    color:#4F3B1C;
     font-weight: bold;
     font-size: 25px;
     word-spacing: 10px;
@@ -49,7 +51,7 @@ span{
    border-radius: 10px;
    height:35px;
    width:300px;
-   border-color: crimson;
+   border-color: #FFCD57 #7DC4B2;
 }
 .emailad{
     
@@ -67,25 +69,90 @@ span{
 .btn{
     float:right;
     border-radius: 5px;
-    background-color: rgb(26, 125, 218);
+    background-color: gray;
+    color:#4F3B1C;
    height: 40px;
    width:90px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Skranji', cursive;
     margin: 0px 20px 20px 0px;
     font-size: 20px;
 
 }
 footer{
-margin: 120px 0px 0px 30px;
+margin: 100px 0px 0px 30px;
 text-align: center;
 
 }
 footer span{
     padding-right: 200px;
     padding-left:100px;
-    font-family: 'Times New Roman', Times, serif;
-    color: gray;
+    font-family: 'Skranji', cursive;
+     color: gray;
     font-size: 20px;
+}
+@media (max-width:1003px){
+   .btm1{
+        padding-right: 0px;
+        padding-left: 0px;
+        margin:0px;
+        display:inline;
+    }
+    .btm2{
+        padding-right: 0px;
+        padding-left: 0px;
+        margin:0px;
+        display:inline;
+    }
+    .btm3{
+        padding-right: 0px;
+        padding-left: 0px;
+        margin:0px;
+        display:inline;
+    }
+    .btm, .btm2,.btm3{
+        margin: 0px 8px 0px 8px;
+        display:inline;
+    }
+}
 
+@media (max-width: 621px){
+    .user, .passw, .dob{
+        padding:20px 0px 20px 10px;
+    }
+    .entry{
+       margin-left: 10px;
+       width: 200px;
+    }
+    .emailad{
+        padding: 20px 0px 0px 0px;
+    }
     
+}
+
+@media(max-width:461px){
+ .card{
+    height: 600px;
+}
+.entry{
+    margin:10px 0px 10px 0px;
+    
+}
+span{
+    margin-left: 10px;
+}
+h1{
+    margin: 10px 50px 40px 50px;
+}
+.btm, .btm2,.btm3{
+    margin: 0px 8px 0px 8px;
+}
+.btn{
+   margin-bottom: 0px;
+   margin-top: 50px;
+}
+}
+@media(max-width:397px){
+   .btn{
+    margin-top : 10px;
+   } 
 }
