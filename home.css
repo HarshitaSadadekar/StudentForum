@@ -3,29 +3,10 @@
     padding:0px;
     box-sizing: border-box;
 }
-/* body{
-    background-image: url(c.jpg);
-    background-size: cover;
-    height:100vh;
-    background-position: center; 
-    background-repeat: no-repeat;
-}  */
-
-/* html{ 
-    background: url(c.jpg) no-repeat 
-      center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-   
-  } */
-/* #image1{
-    text-align: right;
-}  */
+/* TOP NAVIGATION BAR */
 .navbar{
-    padding-top: 20px;
-    padding-right: 0px;
+    /* padding-top: 20px; */
+    /* padding-right: 0px; */
     font-size: medium;
 }
 .navbar-nav li{
@@ -34,26 +15,210 @@
     margin-left: 40px;
     text-transform: uppercase;
     font-size: 25px;
-    
+}
+.navbar-nav{
+  margin-left: 700px;
 }
 .navbar-nav li a{
-    color: #1c264a;
+    color:palevioletred;
     font-family: 'Righteous', cursive;
+    padding-left: 1000px;
+
 } 
 .navbar-nav li a:hover{
     color:#71a2c1;
     text-decoration: none ;
     cursor: none;
+    
+}
+.navbar-nav li a:active{
+    color:burlywood;
 }
 
-.navbar{
-    /* background-color: transparent; */
-    padding-left: 800px;
-}
 .deco{
     margin:35px 0px 0px 100px;
-   
 }
+
+/* LOGO IMAGE */
+#logo{
+  /* display: inline-block; */
+  margin-left: 100px; 
+  margin-top: 20px;
+  float: left;
+  height: 60px;
+  width: auto; 
+  border-radius: 50%; 
+}
+.navbar p{
+  margin: 15px 0px 0px 10px;
+  font-family: 'Righteous', cursive;
+  font-size: 25px;
+  color:palevioletred;
+}
+
+/* BUTTON AND INFO EDIT */
+.forum-info{
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.btn{
+  margin: 60px 20px 0px 20px;
+  border-radius: 40px !important;
+  background-color: #71a2c1 !important;
+  height:50px;
+  width:150px;
+  cursor: none;
+}
+.btn:hover{
+  cursor: none;
+}
+/* GENRE INFO  */
+.genre{
+  text-align: center;
+  padding-top: 350px;
+}
+ /* CARD STYLING */
+ .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    /* padding: 4px 16px; */
+  }
+  
+  #cards-container {
+    overflow: hidden;
+    margin: 50px 20px 0px 20px ;
+  }
+  
+  .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 999999px;
+  }
+  
+.card {
+    /* Add shadows to create the "card" effect */
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background: #fff;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    width: 235px;
+    margin: 15px 7.5px;
+}
+  
+.card:hover {
+    transform: translateY(-1rem);
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    cursor: none;
+}
+  
+.card .img {
+    max-width: 220px;
+    height: 220px;
+    display: inline-block;
+}
+  
+#slide-left-container,
+#slide-right-container {
+    display: none;
+    margin: 50px 20px 0px 20px ;
+}
+  
+#slide-left-container.active,
+#slide-right-container.active {
+    display: block;
+    cursor: none;
+    
+}
+  
+.slide-left,
+.slide-right {  
+    border-color: #fff;
+    border-style: solid;
+    height: 20px;
+    width: 20px;
+    
+}
+  
+.slide-left {
+    border-width: 4px 0 0 4px;
+    border-color: black;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    margin-left: 0px;
+}
+  
+.slide-right {
+    border-width: 4px 4px 0 0;
+    border-color: black;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-left:0px;
+}
+
+/* STYLING FEATURES SECTION */
+#features{
+  padding: 200px 0px 0px 120px;
+}
+#icons{
+  padding: 0px 100px 0px 0px;
+  float:right;
+  width: 600px;
+}
+#features-info{
+  width: 300px;
+}
+.box{
+  height: 80px;
+  width: 80px;
+  border-radius: 5px;
+  padding-top: 20px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 30px;
+}
+.far .fas{
+  color: black;
+}
+.box p{
+  padding-top: 25px;
+  width:100px;
+  height: 100px;
+  /* text-align: center; */
+}
+#box1{
+  background-color: brown;
+}
+#box2{
+  background-color: yellow;
+}
+#box3{
+  background-color: paleturquoise;
+}
+#box4{
+  background-color: coral;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* a.deco--raiseUp:hover{

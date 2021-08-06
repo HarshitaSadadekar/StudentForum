@@ -8,7 +8,7 @@ body, body * {
   
   .shapes {
     position: relative;
-    height: 100vh;
+    height: 300px;
     width: 100vw;
     background:#540877 ;
     overflow: hidden;
@@ -43,7 +43,7 @@ body, body * {
     left: 0;
     position: absolute;
     display: flex;
-    height: 100vh;
+    height: 500px;
     width: 100vw;
     background: #fff;
     mix-blend-mode: screen;
@@ -51,14 +51,15 @@ body, body * {
   
   h1 {
     font-size: 40px;
-    margin-top: 150px;
+    margin-top: 200px;
     margin-left: 60px;
+    height: 80px;
     
   }
   @media (min-width: 419px) {
     h1 {
-      font-size: 40px;
-      font-size: calc((0.0989119683 * 100vw + (58.5558852621px)));
+      font-size: 80px;
+      /* font-size: calc((0.0989119683 * 100vw + (58.5558852621px))); */
     }
   }
   @media (min-width: 1430px) {
