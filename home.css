@@ -20,7 +20,7 @@
   margin-left: 700px;
 }
 .navbar-nav li a{
-    color:palevioletred;
+    color:#F64697;
     font-family: 'Righteous', cursive;
     padding-left: 1000px;
 
@@ -42,18 +42,17 @@
 /* LOGO IMAGE */
 #logo{
   /* display: inline-block; */
-  margin-left: 100px; 
-  margin-top: 20px;
+  margin-left: 50px; 
+  margin-top: 5px;
   float: left;
-  height: 60px;
-  width: auto; 
-  border-radius: 50%; 
+  height: 100px;
+  width: 300px;  
 }
 .navbar p{
   margin: 15px 0px 0px 10px;
   font-family: 'Righteous', cursive;
   font-size: 25px;
-  color:palevioletred;
+  color:#F64697;
 }
 
 /* BUTTON AND INFO EDIT */
@@ -244,7 +243,7 @@
   color: black;
   position: relative;
   overflow: hidden;
-  background-color: palevioletred;
+  background-color: #F64697;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -328,6 +327,7 @@
 footer{
   padding-left: 40px;
 }
+
 
 
 
