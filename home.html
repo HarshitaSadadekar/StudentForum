@@ -206,13 +206,84 @@
         </div>
       </div>    
     </div>
+
+    <div class="main center">
+      <div class="rect center">
+          <img src="images/harshita.png" alt="">
+          <div>
+              <p class="user_name">Harshita</p>
+              <p class="skill">FullStack Web developer</p>
+          </div>
+          <div class="arr_container center ">
+              <i class="fas fa-arrow-right"></i>
+          </div>
+          <div class="left_container off">
+              <p>Skills</p>
+              <div class="skills">
+                  <div>FullStack Web Developer</div>
+                  <div>Flutter</div>
+              </div>
+              <div class="social">
+                <a href="https://github.com/HarshitaSadadekar"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/harshita-sadadekar-94196b1b8/"> <i class="fab fa-linkedin"></i></a>
+              </div>
+              <div class="cancel center">
+                  <i class="fas fa-times"></i>
+              </div>
+          </div>
+      </div>
+      <div class="rect center">
+        <img src="images/ria.jpeg" alt="">
+        <div>
+            <p class="user_name">Ria</p>
+            <p class="skill">Back-end developer</p>
+        </div>
+        <div class="arr_container center ">
+            <i class="fas fa-arrow-right"></i>
+        </div>
+        <div class="left_container off">
+            <p>Skills</p>
+            <div class="skills">
+                <div>Data analysis</div>
+                <div>Database management</div>
+            </div>
+            <div class="social">
+                <a href="https://github.com/RiaMishra48"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ria-mishra-223772215/"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="cancel center">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+    </div>
+  </div>
+
         
     
 
 
 </div>
   
-   
+<script>
+  const clc = document.querySelector(".cancel");
+  const arr = document.querySelector(".arr_container");
+  const left_container = document.querySelector(".left_container");
+
+  arr.addEventListener("click", ()=>{
+      arr.classList.add("active_arr");
+      if(left_container.classList.contains("off")){
+          left_container.classList.remove("off");
+          left_container.classList.add("active");
+      }
+  });
+  clc.addEventListener("click", ()=>{
+      arr.classList.remove("active_arr");
+      if(left_container.classList.contains("active")){
+          left_container.classList.remove("active");
+          left_container.classList.add("off");
+      }
+  });
+</script>
    
       
     
