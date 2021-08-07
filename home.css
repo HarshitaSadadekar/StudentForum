@@ -182,7 +182,7 @@
   height: 80px;
   width: 80px;
   border-radius: 5px;
-  padding-top: 20px;
+  padding-top: 10px;
   text-align: center;
   display: inline-block;
   margin:0px 100px 0px 60px;
@@ -218,6 +218,15 @@
 
 /* PROFILE CARDS */
 .center{
+  justify-content: center;
+  align-items: center;
+}
+#about{
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+.profile{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -236,6 +245,9 @@
   position: relative;
   overflow: hidden;
   background-color: palevioletred;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .rect img{
   width: 100px;
@@ -309,8 +321,13 @@
 .left_container .social i:hover{
   color: #2c5364;
 }
-
-
+.fas{
+  padding:10px;
+}
+/* FOOTER */
+footer{
+  padding-left: 40px;
+}
 
 
 
