@@ -10,7 +10,7 @@ body, body * {
     position: relative;
     height: 300px;
     width: 100vw;
-    background:#540877 ;
+    background:#9D0208 ;
     overflow: hidden;
   }
   
@@ -20,23 +20,23 @@ body, body * {
     border-radius: 50%;
   }
   .shape.shape-1 {
-    background: #c66add;
-    width: 650px;
-    height: 650px;
+    background: #DC2F02;
+    width: 600px;
+    height: 600px;
     margin: -325px 0 0 -325px;
   }
   .shape.shape-2 {
-    background: #d9adee;
-    width: 440px;
-    height: 440px;
+    background: #F48C06;
+    width: 400px;
+    height: 400px;
     margin: -220px 0 0 -220px;
   }
-  .shape.shape-3 {
-    background: rgb(209, 185, 255);
+  /*.shape.shape-3 {
+    background: #d1b9ff;
     width: 270px;
     height: 270px;
     margin: -135px 0 0 -135px;
-  }
+  }*/
   
   .content {
     top: 0;
