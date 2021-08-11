@@ -201,16 +201,16 @@
   text-align: center;
 }
 #box1{
-  background-color: brown;
+  background-color: #DFE7FD;
 }
 #box2{
-  background-color: yellow;
+  background-color: #FFF1E6;
 }
 #box3{
-  background-color: paleturquoise;
+  background-color: #E2ECE9;
 }
 #box4{
-  background-color: #fa6031;
+  background-color: #FDE2E4;
 }
 .icon-info{
   width: 200px;
