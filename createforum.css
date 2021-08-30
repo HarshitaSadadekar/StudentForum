@@ -1,0 +1,26 @@
+.cards{
+    margin:0 auto;
+    max-width: 1000px;
+    color:#4F3B1C;
+    
+}
+
+.card{
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+    height:520px;
+    width: 500px;
+    
+}
+.smallcard{
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+    height:300px;
+    width: 300px;
+    margin: 0px 0px 0px 100px;
+}
+
+.smallcard-content h6{
+    margin:30px 0px 5px 20px;
+}
+.smallcard-form{
+    margin-left: 20px;
+}

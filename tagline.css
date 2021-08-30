@@ -20,13 +20,13 @@ body, body * {
     border-radius: 50%;
   }
   .shape.shape-1 {
-    background: #DC2F02;
+    background: #DF496C;
     width: 600px;
     height: 600px;
     margin: -325px 0 0 -325px;
   }
   .shape.shape-2 {
-    background: #F48C06;
+    background: #FAD461;
     width: 400px;
     height: 400px;
     margin: -220px 0 0 -220px;
@@ -44,8 +44,8 @@ body, body * {
     position: absolute;
     display: flex;
     height: 500px;
-    width: 100vw;
     background: #fff;
+    width: 100vw;
     mix-blend-mode: screen;
   }
   
@@ -54,7 +54,8 @@ body, body * {
     margin-top: 200px;
     margin-left: 60px;
     height: 80px;
-    
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
   }
   @media (min-width: 419px) {
     h1 {
@@ -70,7 +71,7 @@ body, body * {
   
   .cursor {
     position: fixed;
-    background: #540877;
+    background: #9D0208;
     width: 20px;
     height: 20px;
     margin: -10px 0 0 -10px;
@@ -86,10 +87,10 @@ body, body * {
   
   ::-moz-selection {
     color: #fff;
-    background: #540877;
+    background: #9D0208;
   }
   
   ::selection {
     color: #fff;
-    background: #540877;
+    background: #9D0208;
   }
