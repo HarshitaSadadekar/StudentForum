@@ -1,29 +1,28 @@
 body{
-    background-image: url("images/chat.png");
+    /* background-image: url(""); */
+    font-family: 'Righteous', cursive;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 section{
     margin-top:20px;
-    font-family: 'Skranji', cursive;
-    color:#4F3B1C;
+    /* color:#4F3B1C; */
 }
 a{
     text-decoration: none;
-    color:#4F3B1C;
-    font-family: 'Skranji', cursive;
-
-
+    /* color:#4F3B1C; */
 }
 h1{
     margin:0px 50px 50px;
     margin-top:0px;
     text-align: center;
     font-size:50px;
-    letter-spacing: 10px;
+    /* letter-spacing: 10px; */
     font-weight: bolder;
-    text-shadow: 2px 2px 2px #FFCD57, 4px 4px 2px #7DC4B2;
+    /* text-shadow: 2px 2px 2px #FFCD57, 4px 4px 2px #7DC4B2; */
 }
 span{
-    letter-spacing: 3px;
+    /* letter-spacing: 3px; */
     margin: 0px 0px 0px 30px;
     font-size: 25px;
     word-spacing: 10px;
@@ -33,11 +32,10 @@ span{
     margin:0 auto;
     max-width: 800px;
     display: grid;
-    font-family: 'Skranji', cursive;
-    color:#4F3B1C;
+    /* color:#4F3B1C; */
     font-weight: bold;
     font-size: 25px;
-    word-spacing: 10px;
+    /* word-spacing: 10px; */
     
 }
 
@@ -46,12 +44,18 @@ span{
     height:330px;
     
 }
-.entry{
+.entry1{
    margin-left: 30px;
    border-radius: 10px;
    height:35px;
    width:300px;
-   border-color: #FFCD57 #7DC4B2;
+   /* border-color: #FFCD57 #7DC4B2; */
+}
+.entry2{
+    margin-left: 88px;
+   border-radius: 10px;
+   height:35px;
+   width:300px;
 }
 .emailad{
     
@@ -60,28 +64,20 @@ span{
 .passw{
     padding: 30px 0px 30px 60px;
 }
-.btn{
-    float:right;
-    border-radius: 5px;
-    background-color: gray;
-    color:#4F3B1C;
-   height: 40px;
-   width:90px;
-    font-family: 'Skranji', cursive;
-    margin: 0px 20px 20px 0px;
-    font-size: 20px;
-
+button{
+    margin: 30px 0px 0px 400px;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 1.5px;
 }
 footer{
-margin: 200px 0px 0px 30px;
+margin: 180px 0px 0px 30px;
 text-align: center;
 
 }
 footer span{
     padding-right: 200px;
     padding-left:100px;
-    font-family: 'Skranji', cursive;
-    color: gray;
+    /* color: gray; */
     font-size: 20px;
 }
 @media (max-width:1003px){
@@ -150,14 +146,14 @@ margin: 30px 25px 20px 0px;
  .btm, .btm2,.btm3{
      margin: 0px 8px 0px 8px;
  }
- .btn{
+ /* .btn{
     margin-bottom: 0px;
     margin-top: 50px;
- }
+ } */
  }
  @media(max-width:397px){
-    .btn{
+    /* .btn{
      margin-top : 10px;
-    } 
+    }  */
  }
  

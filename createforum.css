@@ -1,26 +1,75 @@
+body{
+    font-family: 'Righteous', cursive;
+    letter-spacing: 1.5px;
+}
 .cards{
     margin:0 auto;
     max-width: 1000px;
-    color:#4F3B1C;
-    
 }
-
 .card{
-    box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.3);
     height:520px;
-    width: 500px;
-    
+    width: 700px;
+    border-radius: 20px;
+}
+.card-content{
+    margin: 50px 0px 0px 100px;
+    padding-top: 5px;
+}
+.card-content p{
+    margin-top: 0px;
+}
+.card-content h2{
+    margin-bottom: 5px;
 }
 .smallcard{
-    box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.2);
     height:300px;
-    width: 300px;
-    margin: 0px 0px 0px 100px;
+    width: 450px;
+    border-radius: 20px;
 }
-
+.smallcard-content{
+    padding-top: 1px;
+}
 .smallcard-content h6{
     margin:30px 0px 5px 20px;
 }
 .smallcard-form{
     margin-left: 20px;
+    border-radius: 5px;
+    height:30px;
+}
+.smallcard-form1{
+    margin-left: 20px; 
+}
+#bigform{
+    display: flex;
+}
+#smallform-2{
+    float:right;
+}
+input[type=text]:focus {
+    border: 3px solid #555;
+    background-color:#BCDFD1 ;
+    
+}
+  input[type=number]:focus {
+    border: 3px solid #555;
+    background-color:#BCDFD1 ;
+    
+}
+input{
+    resize: vertical;
+}
+  
+button{
+    margin: 30px 0px 0px 400px;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 1.5px;
+}
+@media screen and (max-width: 600px) {
+    .smallform-1, .smallform-2, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
 }

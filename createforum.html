@@ -4,28 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Styling -->
     <link rel="stylesheet" href="createforum.css">
+    <!-- Compiled SCSS -->
+    <link rel="stylesheet" href="button.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Skranji&display=swap" rel="stylesheet">
     <title>Create A Forum</title>
 </head>
 <body>
    <div class="cards">
        <div class="card">
+           <div class="card-content">
            <h2>Create a forum</h2>
            <p>Add a new forum to the collection of the existing forums.</p>
            <div class="smallcard">
                <div class="smallcard-content">
                <h6>FORUM NAME</h6>
-               <form action="" method="post" class="smallcard-form">
-                   <input type="text">
+               <form action="" method="post">
+                   <input type="text" class="smallcard-form">
                </form>
+               <div id="bigform">
+               <div id="smallform-1">
+               <h6>YOUR NAME</h6>
+               <form action="" method="post">
+                   <input type="text" class="smallcard-form">
+               </form>
+            </div>
+               <div id="smallform-2">
+               <h6>MAX USERS</h6>
+               <form action="" method="post">
+                   <input type="number" class="smallcard-form">
+               </form>
+               </div>
+               </div>
                <h6>FORUM PICTURE</h6>
-               <form action="" method="post" class="smallcard-form">
-                   <input type="file" name="img" accept="image/*">
+               <form action="" method="post" >
+                   <input type="file" name="img" accept="image/*" class="smallcard-form1">
                </form>
             </div>
            </div>
-           <button type="submit">Create</button>
+           <button class="button alternative">Submit</button>
        </div>
+    </div>
    </div> 
+   <script src="button.js"></script>
 </body>
 </html>
